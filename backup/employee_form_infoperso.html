@@ -1,0 +1,138 @@
+                    <div class="tab">
+                        <div class=" col-sm-6 col-xs-12">
+                            <div class="form-group" style="width: 90%;">
+                                {{ form_label(form.firstName) }}
+                                {{ form_widget(form.firstName, {'attr':{
+                                    'oninput':'"this.className = \'\'"',
+                                    'class':'form-control'
+                                }}) }}
+                            </div>
+
+
+                            <div class="form-group " style="width: 90%;">
+                                {{ form_label(form.birthday) }}
+                                <div class="input-group date">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-calendar"></i>
+                                    </div>
+                                    {{ form_widget(form.birthday, {'attr':{
+                                        'oninput':'"this.className = \'\'"',
+                                        'class':'form-control pull-right datepicker'
+
+                                    }}) }}
+                                </div>
+                            </div>
+                            <div class="form-group" style="width: 90%;">
+                                {{ form_label(form.dependentChild) }}
+                                {{ form_widget(form.dependentChild, {'attr':{
+                                    'oninput':'"this.className = \'\'"',
+                                    'class':'form-control'
+                                }}) }}
+                            </div>
+                            <div class="form-group" style="width: 90%;">
+                                {{ form_label(form.cnssNumber) }}
+                                {{ form_widget(form.cnssNumber, {'attr':{
+                                    'oninput':'"this.className = \'\'"',
+                                    'class':'form-control'
+                                }}) }}
+                            </div>
+
+                        </div>
+                        <div class=" col-sm-6 col-xs-12">
+                            <div class="form-group" style="width: 90%;">
+                                {{ form_label(form.lastName) }}
+                                {{ form_widget(form.lastName, {'attr':{
+                                    'oninput':'"this.className = \'\'"',
+                                    'class':'form-control'
+                                }}) }}
+                            </div>
+
+                            <div class="form-group" style="width: 90%;">
+                                {{ form_label(form.phoneNumber) }}
+                                {{ form_widget(form.phoneNumber, {'attr':{
+                                    'oninput':'"this.className = \'\'"',
+                                    'class':'form-control'
+                                }}) }}
+                            </div>
+
+                            <div class="form-group" style="width: 90%;">
+                                {{ form_label(form.maritalStatus) }}
+                                {{ form_widget(form.maritalStatus, {'attr':{
+                                    'oninput':'"this.className = \'\'"',
+                                    'class':'form-control'
+                                }}) }}
+                            </div>
+                            <div class="form-group" style="width: 90%;">
+                                {{ form_label(form.address) }}
+                                {{ form_widget(form.address, {'attr':{
+                                    'oninput':'"this.className = \'\'"',
+                                    'class':'form-control'
+                                }}) }}
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                     {#{ form_label(form.employeeformation) }
+                                <div class='row'>
+                                    <div class='col-sm-3 col-xs-12'>
+                                        <div class='form-group'>
+                                            {{ form_label(form.employeeformation.startDate) }}
+                                            <div class='input-group date'>
+                                                <div class='input-group-addon'>
+                                                    <i class='fa fa-calendar'></i>
+                                                </div>
+                                                {{ form_widget(form.employeeformation.startDate, {'attr':{
+                                                    'oninput':'this.className = \'\'',
+                                                    'class':'form-control pull-right datepicker'
+                                                }}) }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-sm-3 col-xs-12'>
+                                        <div class='form-group'>
+                                            {{ form_label(form.employeeformation.endDate) }}
+                                            <div class='input-group date'>
+                                                <div class='input-group-addon'>
+                                                    <i class='fa fa-calendar'></i>
+                                                </div>
+                                                {{ form_widget(form.employeeformation.endDate, {'attr':{
+                                                    'oninput':'this.className = \'\'',
+                                                    'class':'form-control pull-right datepicker'
+                                                }}) }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-sm-3 col-xs-12'>
+                                        <div class='form-group' >
+                                            {{ form_label(form.employeeformation.organization) }}
+                                            {{ form_widget(form.employeeformation.organization, {'attr':{
+                                                'oninput':'this.className = \'\'',
+                                                'class':'form-control'
+                                            }}) }}
+                                        </div>
+                                    </div>
+                                    <div class='col-sm-3 col-xs-12'>
+                                        <div class='form-group' >
+                                            {{ form_label(form.employeeformation.country) }}
+                                            {{ form_widget(form.employeeformation.country, {'attr':{
+                                                'oninput':'this.className = \'\'',
+                                                'class':'form-control'
+                                            }}) }}
+                                        </div>
+                                    </div>
+                                    <div class='col-sm-3 col-xs-12'>
+                                        <div class='form-group'>
+                                            {{ form_label(form.employeeformation.formation) }}<a href='#'> Autre?</a>
+                                            {{ form_widget(form.employeeformation.formation, {'attr':{
+                                                'oninput':'this.className = \'\'',
+                                                'class':'form-control'
+                                            }}) }}
+                                        </div>
+                                    </div>
+                                </div>#}

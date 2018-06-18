@@ -1,0 +1,3 @@
+Database migration:
+
+Appréhender l’évolution du schéma de la base de données est très important durant le cycle de vie d’un projet, car la base de données étant le cœur de notre produit nous devons avoir toutes les informations sur ses changements et pouvoir faire un rollback au moindre problème. DoctrineMigrationsBundle est un bundle doctrine qui nous permet donc de suivre cette évolution, de migrer la structure et les données de notre base de données, de manière sécurisée et standardisée.

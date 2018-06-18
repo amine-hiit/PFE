@@ -1,0 +1,5 @@
+# Modèle créé le : Fri Mar 30 15:16:41 WEST 2018 
+formation (id_formation, diploma_formation, start_date_formation, end_date_formation, speciality_formation, place_formation, country_formation, #id_employee) 
+employee (id_employee, first_name_employee, last_name_employee, birthday_employee, marital_status_employee, dependent_child_employee, photo_id_employee, address_employee, languages_employee, phone_number_employee, cnss_number_employee, start_date_employee, employment_place_employee, current_position_employee, status_employee) 
+experience (id__experience, employer_experience, city_experience, country_experience, start_date_experience, end_date_experience, position_experience, description_experience, #id_employee) 
+project (id_project, name_project, date_project, description_project, #id_employee) 

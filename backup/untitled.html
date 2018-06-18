@@ -1,0 +1,70 @@
+<div class="box box-success box-solid">
+    <div class="box-header with-border">
+        <h3 class="box-title">Removable</h3>
+
+        <div class="box-tools pull-right">
+            <button type="button " class="removing btn btn-box-tool" ></button>
+        </div>
+        <!-- /.box-tools -->
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+        <div class='col-sm-4 col-xs-12'>
+            <div class='form-group'>
+                {{ form_label(item.formation) }}<a href='#'> Autre?</a>
+                {{ form_widget(item.formation, {'attr':{
+                    'class':'form-control'
+                }}) }}
+            </div>
+        </div>
+        <div class='col-sm-4 col-xs-12'>
+            <div class='form-group' >
+                {{ form_label(item.organization) }}
+                {{ form_widget(item.organization, {'attr':{
+                    'class':'form-control'
+                }}) }}
+            </div>
+        </div>
+        <div class='col-sm-4 col-xs-12'>
+            <div class='form-group' >
+                {{ form_label(item.country) }}
+                {{ form_widget(item.country, {'attr':{
+                    'class':'form-control'
+                }}) }}
+            </div>
+        </div>
+        <div class='col-sm-4 col-xs-12'>
+            <div class='form-group'>
+                {{ form_label(item.startDate) }}
+                <div class='input-group date'>
+                    <div class='input-group-addon'>
+                        <i class='fa fa-calendar'></i>
+                    </div>
+                    {{ form_widget(item.startDate, {'attr':{
+
+                        'class':'form-control pull-right datepicker'
+                    }}) }}
+                </div>
+            </div>
+        </div>
+        <div class='col-sm-4 col-xs-12'>
+            <div class='form-group'>
+                {{ form_label(item.endDate) }}
+                <div class='input-group date'>
+                    <div class='input-group-addon'>
+                        <i class='fa fa-calendar'></i>
+                    </div>
+                    {{ form_widget(item.endDate, {'attr':{
+
+                        'class':'form-control pull-right datepicker'
+                    }}) }}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
